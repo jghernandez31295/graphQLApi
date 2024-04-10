@@ -1,0 +1,33 @@
+{
+  "name": "graphQLApi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jghernandez31295/graphQLApi.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^12.3.0",
+    "apollo-server": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "class-validator": "^0.14.1",
+    "config": "^3.3.11",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "graphql": "15.x",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "nanoid": "^5.0.7",
+    "reflect-metadata": "^0.2.2",
+    "type-graphql": "^1.1.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/config": "^3.3.4",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/jsonwebtoken": "^9.0.6",
+    "ts-node-dev": "^2.0.0"
+  }
+}
